@@ -1,4 +1,4 @@
-resource_group_names = {
+RGs= {
  rg1={
   rg_name="Pasnet_RG1"
   rg_location="Central India"
