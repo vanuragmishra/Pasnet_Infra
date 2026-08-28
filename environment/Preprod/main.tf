@@ -5,7 +5,7 @@ variable "sa_p" {
 
 }
 variable "vnet_p" {
- 
+
 }
 
 module "rg_mb" {
