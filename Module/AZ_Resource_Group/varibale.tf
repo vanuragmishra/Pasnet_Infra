@@ -1,4 +1,4 @@
-variable RGs {
+variable rg_m {
 
  }
   
