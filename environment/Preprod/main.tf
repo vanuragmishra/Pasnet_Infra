@@ -1,11 +1,11 @@
 variable "rg_p" {
-  type = any
+
 }
 variable "sa_p" {
-  type = any
+
 }
 variable "vnet_p" {
-  type = any
+ 
 }
 
 module "rg_mb" {
