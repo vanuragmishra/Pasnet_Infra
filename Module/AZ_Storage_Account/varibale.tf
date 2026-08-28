@@ -1,3 +1,0 @@
-variable "sa_m" {
-
-}

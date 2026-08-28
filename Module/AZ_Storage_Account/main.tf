@@ -1,3 +1,7 @@
+variable "sa_m" {
+
+}
+
 resource "azurerm_storage_account" "sa_block" {
   for_each = var.sa_m
   name=each.value.name

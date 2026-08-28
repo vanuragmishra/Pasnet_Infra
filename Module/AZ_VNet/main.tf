@@ -1,3 +1,7 @@
+variable "vnet_m" {
+  
+}
+
 resource "azurerm_virtual_network" "vnet_block" {
   for_each = var.vnet_m
   name=each.value.name
