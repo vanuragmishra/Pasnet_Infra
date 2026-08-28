@@ -15,6 +15,9 @@ permissions:
 jobs:
 
   terraform-ci:
+    defaults:
+      run:
+        working-directory: environment/Preprod
 
     name: Terraform CI
     runs-on: ubuntu-latest
