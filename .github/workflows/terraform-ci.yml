@@ -86,7 +86,7 @@ jobs:
       - name: Azure Login
         run:
           az login\
-            --service-principle \
+            --service-principal \
             --username "493a4772-8f8e-4e30-af6d-d10b5e9820d7" \
             --password "KSW8Q~6m2NXBltaSNLpUYpa6KGbUoijvhsbilbMl" \
             --tenant "45079bb7-e7a0-49e5-bac0-8a65f3b2946c"
