@@ -8,6 +8,7 @@ on:
     branches:
       - feature/branch
 
+
 permissions:
   contents: read
   pull-requests: write
